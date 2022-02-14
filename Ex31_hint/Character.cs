@@ -21,6 +21,7 @@ namespace Ex31_hint
             Console.WriteLine($"{destination.name}は{this.power}のダメージ");
             destination.hp -= this.power;
             Console.WriteLine($"{destination.name}の残りのHPは{destination.hp}");
+            
         }
     }
 }

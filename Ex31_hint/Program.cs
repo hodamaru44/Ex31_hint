@@ -12,7 +12,10 @@ namespace Ex31_hint
             tank1.bullet = 10;
             Tank tank2 = new Tank("がんタンク", 10000, 125);
             tank2.bullet = 5;
-            Character[] characters = { character1, character2, tank1, tank2 };
+            Cat cat = new Cat("チェシャー猫",200,96);
+            Cow cow = new Cow("赤べこ",2000,100);
+            Honet honet = new Honet("ライトニングホーネット",100,10);
+            Character[] characters = { character1, character2, tank1, tank2,cat,cow,honet};
             for(var i = 1; i < characters.Length; i++)
             {
                 characters[i].Attack(character1);
