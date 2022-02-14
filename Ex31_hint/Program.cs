@@ -8,9 +8,9 @@ namespace Ex31_hint
         {
             Character character1 = new Character("しむら人", 500, 2);
             Character character2 = new Character("ささっき", 1000, 25);
-            Tank tank1 = new Tank("Tiger", 500000, 250);
+            Tank tank1 = new Tank("Tiger",500000,250);
             tank1.bullet = 10;
-            Tank tank2 = new Tank("がんタンク", 10000, 125);
+            Tank tank2 = new Tank("がんタンク",10000,125);
             tank2.bullet = 5;
             Cat cat = new Cat("チェシャー猫",200,96);
             Cow cow = new Cow("赤べこ",2000,100);
