@@ -6,7 +6,7 @@ namespace Ex31_hint
 {
     class Cow: Character
     {
-        public Cow(string name, float hp, float power) : base(name, hp, power) { }
+        public Cow(string name, float hp, float power, float resistance) : base(name, hp, power, resistance) { }
 
         public override void Attack(Character destination)
         {
