@@ -14,7 +14,7 @@ namespace Ex31_hint
             tank2.bullet = 5;
             Cat cat = new Cat("チェシャー猫",200,96,0);
             Cow cow = new Cow("赤べこ",2000,100,0);
-            Honet honet = new Honet("ライトニングホーネット",100,10,0);
+            Hornet honet = new Hornet("ライトニングホーネット",100,10,0);
             Character[] characters = { character1, character2, tank1, tank2,cat,cow,honet};
             for(var i = 1; i < characters.Length; i++)
             {

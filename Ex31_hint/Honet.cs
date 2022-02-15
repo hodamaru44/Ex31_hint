@@ -5,7 +5,7 @@ using System.Text;
 namespace Ex31_hint
 {
     
-    class Honet:Character
+    class Hornet:Character
     {/// <summary>
     /// 
     /// </summary>
