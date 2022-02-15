@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ex31_hint
 {
-    //まだできてないです
+    
     class Honet:Character
     {
         public Honet(string name, float hp, float power, float resistance) : base(name, hp, power, resistance) { }

@@ -7,7 +7,7 @@ namespace Ex31_hint
     class Cat : Character
     {
         public Cat(string name, float hp, float power,float resistance) : base(name, hp, power, resistance) { }
-
+       
         public override void Attack(Character destination)
         {
             Console.WriteLine($"{this.name}は{destination.name}にひっかいた");
