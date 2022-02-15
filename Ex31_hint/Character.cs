@@ -6,10 +6,18 @@ namespace Ex31_hint
 {
     class Character
     {
+       
         readonly public string name;
         public float hp;
         protected float power;
         public float resistance;
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>名前
+        /// <param name="hp"></param>体力
+        /// <param name="power"></param>攻撃力
+        /// <param name="resistance"></param>耐性
         public Character(string name,float hp,float power,float resistance)
         {
             this.name = name;
